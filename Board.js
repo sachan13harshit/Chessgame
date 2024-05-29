@@ -16,7 +16,7 @@ const startBoard = game => {
             square.innerHTML = `<img class="piece ${piece.rank}" id="${piece.name}" src="img/${piece.color}-${piece.rank}.png">`
         }
     }
-
+        int resetbtn = 0;
     resetBoard();
 
     const setAllowedSquares = (pieceImg) => {
